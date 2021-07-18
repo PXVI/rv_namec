@@ -61,6 +61,8 @@ B. Terms & Abbreviations
 
 Design Block Diagram ( This is open to change as per requirement )
 
+![namec Block Diagram]( namec_block_diagram.jpg "namec hart" )
+
 ## 2. Design Sub Units
 
 ## 3. Design Performance
