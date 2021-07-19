@@ -43,7 +43,7 @@ B. Terms & Abbreviations
     - Micro-architecture : **In Progress**
 - Verification Document Progress
     - Testbench (Sim) Architecture : **In Progress**
-    - Testbench (Emu) Architecture : **In Progress**
+    - Testbench (Emu) Architecture : **NA**
     - Design Verification Plan : **In Progress**
 
 ### 1.2. Features Supported
