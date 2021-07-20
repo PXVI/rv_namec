@@ -19,7 +19,7 @@
     2.1 fetchUnit
     2.2 decodeUnit
     2.3 executeUnit
-    2.4 writeBackUnit
+    2.4 memoryUnit
 3. Design Performance
 4. Sign-off
 A. References
@@ -65,6 +65,16 @@ Design Block Diagram ( This is open to change as per requirement )
 
 ## 2. Design Sub Units
 
+The micro-architecture is simple and intended to follow a single instruction execution kind of flow. New instructions are not processed unless the previous one has completed it's execution. Each design sub unit of the mArch has been briefly described in the following sun sections. Reader may find the detailed design doc for the sub unit in it's respective directory.
+
+### 2.1. fetchUnit
+
+### 2.2. decodeUnit
+
+### 2.3. executeUnit
+
+### 2.4. memoryUnit
+
 ## 3. Design Performance
 
 ## 4. Sign-off
@@ -77,6 +87,13 @@ Design Block Diagram ( This is open to change as per requirement )
 Abbreviations
     UR - Under Review
     NA - Not Applicable
+    FU - Fetch Unit
+    DU - Decode Unit
+    EU - Execution Unit
+    MU - Memory Unit
+    LSU - Load/Store Unit
+    IC - Instruction Cache
+    DC - Data Cache
     
 Terms
     Target Technology - The final expected technology on which the design is to be fabricated
