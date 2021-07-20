@@ -5,7 +5,7 @@
 ### Primary Features
 - 32bit Data Bus
 - 32bit Address Bus
-- 4-Stage Hart (F/D/E/Wb)
+- 4-Stage Hart (F/D/E/MEM)
 - Single Cycle Design
 - Integer Extension
 
